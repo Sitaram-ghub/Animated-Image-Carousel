@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.img{
+    width: 60vw;
+    height: 50rem;
+    border-radius: 2rem;
+    box-shadow: rgba(100,100,111,0.2)0px 7px 29px 0px;
+    background-image:url("https://static.vecteezy.com/system/resources/thumbnails/022/006/295/small_2x/horse-on-the-field-illustration-ai-generative-free-photo.jpg");
+    background-size: cover;
+    animation: gallery 20s linear infinite;
+}
+
+@keyframes gallery{
+    0%{
+        background-image: url("https://wallpapers.com/images/hd/tropical-rock-hd-waterfall-09zniphcfvkcpg7h.jpg");
+    }
+    20%{
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/798/616/951/macos-sierra-wallpaper-preview.jpg");
+    }
+    40%{
+        background-image: url("https://www.oshotimes.com/wp-content/uploads/2019/01/lij.jpg");
+    }
+    60%{
+        background-image: url("https://media.istockphoto.com/id/620951116/photo/panoramic-view-of-colorful-sunrise-in-mountains.jpg?s=170667a&w=0&k=20&c=rLaUodgwS-x2r4TntvcqYXS3y328-6KbcsWfcdv6d-s=");
+    }
+    80%{
+        background-image: url("https://media.istockphoto.com/id/187639600/photo/beautiful-landscape-in-norther-part-of-india.jpg?s=612x612&w=0&k=20&c=uxT5x1TUjmdNhTMetKbTBW6gNGMMofxF1i0QtY3wl6M=");
+    }
+    100%{
+        background-image: url("https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/04/Laitlum-Canyons.jpg");
+    }
+}
